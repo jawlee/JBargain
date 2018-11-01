@@ -20,13 +20,17 @@ body {
 	background-size: cover;
 }
 
+#freeCharge {
+	color: red;
+}
+
 .about {
 	font-family: "Arial", cursive;
 	font-size-adjust: 1.5;
 	font-size: 110%;
 	color: white;
 	width: 50%;
-	display: inline-block;
+	display:inline-block;
 	position: relative;
 	top: 35vh;
 }
