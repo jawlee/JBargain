@@ -22,6 +22,21 @@ body {
 
 }
 
+#mainframe {
+	text-align: center;
+}
+
+.about {
+	font-family: "Arial", cursive;
+	font-size-adjust: 1.5;
+	font-size: 110%;
+	color: white;
+	width: 50%;
+	display:inline-block;
+	position: relative;
+	top: 35vh;
+}
+
 #layer {
 	background-color: rgba(64, 64, 64, 0.7);
     position: absolute;
@@ -79,6 +94,7 @@ body {
 	text-decoration-style: bold;
 	background-color: orange;
 	border-color: orange;
+	object-position: center bottom;
 }
 
 .btn-info:hover {
